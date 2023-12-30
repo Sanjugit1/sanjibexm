@@ -145,7 +145,7 @@
             color: #f84d00 !important;
         }
         .event-date, .event-map, .event-details{
-            font-weight: 650;
+            font-weight: 500;
         }
     </style>
 </head>
@@ -338,22 +338,22 @@
 
   confetti();
 // do this for 30 seconds
-var duration = 30 * 1000;
+var duration = 10 * 1000;
 var end = Date.now() + duration;
 
 (function frame() {
   // launch a few confetti from the left edge
   confetti({
-    particleCount: 7,
+    particleCount: 5,
     angle: 60,
-    spread: 55,
+    spread: 500,
     origin: { x: 0 }
   });
   // and launch a few from the right edge
   confetti({
-    particleCount: 7,
+    particleCount: 5,
     angle: 120,
-    spread: 55,
+    spread: 500,
     origin: { x: 1 }
   });
 
