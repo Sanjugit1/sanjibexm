@@ -361,20 +361,20 @@
 
   confetti();
 // do this for 30 seconds
-var duration = 30 * 1000;
+var duration = 40 * 1000;
 var end = Date.now() + duration;
 
 (function frame() {
   // launch a few confetti from the left edge
   confetti({
-    particleCount: 20,
+    particleCount: 7,
     angle: 60,
     spread: 500,
     origin: { x: 0 }
   });
   // and launch a few from the right edge
   confetti({
-    particleCount: 20,
+    particleCount: 7,
     angle: 120,
     spread: 500,
     origin: { x: 1 }
